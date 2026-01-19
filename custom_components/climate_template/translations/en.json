@@ -1,0 +1,28 @@
+{
+  "entity_component": {
+    "climate": {
+      "climate_template": {
+        "state": {
+          "fan_only": "Fan"
+        },
+        "state_attributes": {
+          "fan_mode": {
+            "state": {
+              "auto": "Auto",
+              "off": "Quiet",
+              "low": "Low",
+              "medium": "Medium",
+              "high": "High"
+            }
+          },
+          "swing_mode": {
+            "name": "Vertical Swing"
+          },
+          "swing_horizontal_mode": {
+            "name": "Horizontal Swing"
+          }
+        }
+      }
+    }
+  }
+}
